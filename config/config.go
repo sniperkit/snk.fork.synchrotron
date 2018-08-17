@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package config
 
 import (
@@ -13,7 +18,7 @@ import (
 	"github.com/qor/render"
 	"github.com/qor/session/manager"
 
-	"github.com/cryptix/synchrotron/config/admin/bindatafs"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin/bindatafs"
 )
 
 type SMTPConfig struct {

@@ -1,6 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package migrations
 
 import (
+	"github.com/cryptix/go/logging"
 	"github.com/qor/activity"
 	"github.com/qor/auth/auth_identity"
 	"github.com/qor/banner_editor"
@@ -8,10 +14,9 @@ import (
 	"github.com/qor/media/asset_manager"
 	"github.com/qor/transition"
 
-	"github.com/cryptix/go/logging"
-	"github.com/cryptix/synchrotron/config/admin"
-	"github.com/cryptix/synchrotron/db"
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 func init() {

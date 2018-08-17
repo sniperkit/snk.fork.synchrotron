@@ -1,8 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build !heroku
 
 package bindatafs
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var _bindata = map[string]interface{}{}
 

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package db
 
 import (
@@ -14,7 +19,7 @@ import (
 	"github.com/qor/sorting"
 	"github.com/qor/validations"
 
-	"github.com/cryptix/synchrotron/config"
+	"github.com/sniperkit/snk.fork.synchrotron/config"
 )
 
 var (

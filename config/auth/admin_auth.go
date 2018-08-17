@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package auth
 
 import (
@@ -7,7 +12,7 @@ import (
 	"github.com/qor/qor"
 	"github.com/qor/roles"
 
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 func init() {

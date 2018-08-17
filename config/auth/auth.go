@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package auth
 
 import (
@@ -8,9 +13,9 @@ import (
 	"github.com/qor/auth/providers/twitter"
 	"github.com/qor/auth_themes/clean"
 
-	"github.com/cryptix/synchrotron/config"
-	"github.com/cryptix/synchrotron/db"
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/config"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 var (

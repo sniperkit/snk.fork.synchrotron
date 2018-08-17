@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package models
 
-import "github.com/jinzhu/gorm"
+import (
+	"github.com/jinzhu/gorm"
+)
 
 type Repository struct {
 	gorm.Model

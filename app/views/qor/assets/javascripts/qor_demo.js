@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 var OrderChart,UsersChart;
 function RenderChart(ordersData, usersData) {
     Chart.defaults.global.responsive = true;

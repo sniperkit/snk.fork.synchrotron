@@ -1,10 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package admin
 
 import (
 	"errors"
-	"net/http"
-
 	"html/template"
+	"net/http"
 
 	"github.com/qor/admin"
 	"github.com/qor/banner_editor"
@@ -15,7 +19,7 @@ import (
 	"github.com/qor/sorting"
 	"github.com/qor/widget"
 
-	"github.com/cryptix/synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
 )
 
 var Widgets *widget.Widgets
@@ -124,7 +128,7 @@ func initWidgets() {
 		imageRes := Admin.NewResource(&imageSetting{})
 		imageRes.Meta(&admin.Meta{Name: "Image"})
 
-		banner_editor.RegisterViewPath("github.com/cryptix/synchrotron/app/views/banner_editor")
+		banner_editor.RegisterViewPath("github.com/sniperkit/snk.fork.synchrotron/app/views/banner_editor")
 		banner_editor.RegisterElement(&banner_editor.Element{
 			Icon:     "<i class=material-icons>short_text</i>",
 			Name:     "Add Header",

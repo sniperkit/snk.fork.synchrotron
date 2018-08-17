@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package routes
 
 import (
@@ -5,17 +10,17 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/cryptix/go/logging"
 	"github.com/go-chi/chi"
 	"github.com/qor/publish2"
 	"github.com/qor/qor"
 	"github.com/qor/qor/utils"
 	"github.com/qor/wildcard_router"
 
-	"github.com/cryptix/go/logging"
-	"github.com/cryptix/synchrotron/config/admin/bindatafs"
-	"github.com/cryptix/synchrotron/config/auth"
-	"github.com/cryptix/synchrotron/controllers"
-	"github.com/cryptix/synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin/bindatafs"
+	"github.com/sniperkit/snk.fork.synchrotron/config/auth"
+	"github.com/sniperkit/snk.fork.synchrotron/controllers"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
 )
 
 var rootMux *http.ServeMux

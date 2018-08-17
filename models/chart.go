@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package models
 
 import (
@@ -5,7 +10,7 @@ import (
 
 	"github.com/jinzhu/now"
 
-	"github.com/cryptix/synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
 )
 
 type Chart struct {

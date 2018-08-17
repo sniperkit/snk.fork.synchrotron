@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package controllers
 
 import (
@@ -6,7 +11,7 @@ import (
 	"github.com/qor/qor"
 	"github.com/qor/qor/utils"
 
-	"github.com/cryptix/synchrotron/config"
+	"github.com/sniperkit/snk.fork.synchrotron/config"
 )
 
 func HomeIndex(w http.ResponseWriter, req *http.Request) {

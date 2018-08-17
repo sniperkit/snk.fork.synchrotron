@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package models
 
-import "github.com/qor/media/media_library"
+import (
+	"github.com/qor/media/media_library"
+)
 
 type MediaLibrary struct {
 	Title string

@@ -1,12 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package controllers
 
 import (
 	"net/http"
 	// "strings"
-
-	// "github.com/cryptix/synchrotron/app/models"
-	"github.com/cryptix/synchrotron/config"
-	// "github.com/cryptix/synchrotron/config/utils"
+	// "github.com/sniperkit/snk.fork.synchrotron/app/models"
+	"github.com/sniperkit/snk.fork.synchrotron/config"
+	// "github.com/sniperkit/snk.fork.synchrotron/config/utils"
 )
 
 func ShowCartHandler(w http.ResponseWriter, req *http.Request) {

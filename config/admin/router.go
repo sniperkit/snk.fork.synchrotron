@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package admin
 
 import (
@@ -5,7 +10,7 @@ import (
 
 	"github.com/qor/admin"
 
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 type Charts struct {

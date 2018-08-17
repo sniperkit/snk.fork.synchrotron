@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -10,6 +15,7 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/cryptix/go/logging"
 	kitlog "github.com/go-kit/kit/log"
 	"github.com/qor/i18n/inline_edit"
 	"github.com/qor/middlewares"
@@ -18,15 +24,14 @@ import (
 	"github.com/qor/session/manager"
 	"github.com/qor/widget"
 
-	"github.com/cryptix/go/logging"
-	"github.com/cryptix/synchrotron/config"
-	"github.com/cryptix/synchrotron/config/admin"
-	"github.com/cryptix/synchrotron/config/admin/bindatafs"
-	"github.com/cryptix/synchrotron/config/i18n"
-	"github.com/cryptix/synchrotron/config/routes"
-	"github.com/cryptix/synchrotron/config/utils"
-	_ "github.com/cryptix/synchrotron/db/migrations"
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/config"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin/bindatafs"
+	"github.com/sniperkit/snk.fork.synchrotron/config/i18n"
+	"github.com/sniperkit/snk.fork.synchrotron/config/routes"
+	"github.com/sniperkit/snk.fork.synchrotron/config/utils"
+	_ "github.com/sniperkit/snk.fork.synchrotron/db/migrations"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 var (

@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package i18n
 
 import (
 	"github.com/qor/i18n"
 	"github.com/qor/i18n/backends/database"
 
-	"github.com/cryptix/synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
 )
 
 var I18n *i18n.I18n

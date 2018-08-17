@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package utils
 
 import (
@@ -8,10 +13,10 @@ import (
 	"github.com/qor/l10n"
 	"github.com/qor/qor/utils"
 
-	"github.com/cryptix/synchrotron/config/admin"
-	"github.com/cryptix/synchrotron/config/auth"
-	"github.com/cryptix/synchrotron/db"
-	"github.com/cryptix/synchrotron/models"
+	"github.com/sniperkit/snk.fork.synchrotron/config/admin"
+	"github.com/sniperkit/snk.fork.synchrotron/config/auth"
+	"github.com/sniperkit/snk.fork.synchrotron/db"
+	"github.com/sniperkit/snk.fork.synchrotron/models"
 )
 
 // GetCurrentUser get current user from request
